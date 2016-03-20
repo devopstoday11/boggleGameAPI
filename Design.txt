@@ -1,0 +1,15 @@
+Design Decisions
+
+I chose to store the game board as a pickle file since the board is going to be
+represented as a list of 4 letters, or a 4x4 value matrix. This seemed the easiest way
+to handle the storing of the board information.
+I also chose to store the user path as a list of tuples to easily compare this path
+against all possible paths in the matrix. However, I represented this value as a 
+string in order to use python interpreter to evalaute the tuple of tuples and then
+return this value back to the user. The algorithm for finding solutions to the board
+also worked the best in a tuple format, since tuples are nicely set up to store
+and retrieve data rather quickly. Finally, I decided to have the chron job email the user every day with a list of the current games they are playing rather than every hour, since
+this would annoy the user. In the future I plan on adding an unsubsrcibe feature
+to user preferences so they can opt out of receiving email notifications.
+
+
