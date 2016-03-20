@@ -8,7 +8,7 @@
 1.  (Optional) Generate your client library(ies) with the endpoints tool.
  Deploy your application.
  
-[Working Backend App here](https://boggleonlinegame.appspot.com/)
+[Working Backend API here](https://boggleonlinegame.appspot.com/_ah/api/explorer)
  
 ##Game Description:
 Boggle is a simple two player game where users find words. Game instructions are available
